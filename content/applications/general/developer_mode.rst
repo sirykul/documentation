@@ -16,8 +16,10 @@ Go to :menuselection:`Settings --> Activate the developer mode`.
    :alt: Overview of the debug options under settings in Odoo
 
 .. note::
-   *Activate the developer mode (with assets)* is used by developers; *Activate the developer mode
-   (with tests assets)* is used by developers and testers.
+   :guilabel:`Activate the developer mode (with assets)` is used by developers; :guilabel:`Activate
+   the developer mode (with tests assets)` is used by developers and testers.
+
+   At least one application needs to be installed for the developer menu option to appear.
 
 Once activated, the *Deactivate the developer mode* option becomes available.
 
@@ -31,14 +33,14 @@ Activate through a browser extension
 
 .. image:: developer_mode/monkey.png
    :align: center
-   :alt: View of odoo’s debug icon in a chrome’s toolbar
+   :alt: View of odoo's debug icon in a chrome's toolbar
 
 Activate through the command palette
 ====================================
 
 The command palette tool has a command to activate the debug mode: open it with
 the keyboard shortcut `ctrl+k`, then type `debug`: a command will show up to
-activate the debug mode. 
+activate the debug mode.
 
 .. image:: developer_mode/command_palette.png
    :align: center
